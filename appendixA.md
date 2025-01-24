@@ -10,47 +10,47 @@ If you want to speed things up, you'll have to spend a little money. Particularl
 
 In this appendix, I’ll walk you through the steps to set up your own GPU-backed pod running Jupyter Notebook. I’m assuming you’ve already signed up for an account and are viewing the dashboard. If you click on "Pods" in the menu, you should see something like this:
 
-![](https://github.com/dvgodoy/FineTuningLLMs/blob/master/images/appendixA/runpod1.png)
+![](https://github.com/dvgodoy/FineTuningLLMs/blob/main/images/appendixA/runpod1.png?raw=True)
 
 Click on the big purple "Deploy" button and it will take to you the "Deploy GPU Pod" screen:
 
-![](https://github.com/dvgodoy/FineTuningLLMs/blob/master/images/appendixA/runpod2.png)
+![](https://github.com/dvgodoy/FineTuningLLMs/blob/main/images/appendixA/runpod2.png?raw=True)
 
 Choose "GPU" and, for experimenting with your own projects, the "Community Cloud," which is cheaper. You may also choose the country where your pod will be based. In my experience, the deployment is usually faster when I choose the United States. The availability of GPUs may change depending on the chosen country, day of the week, and time of day. There are times when good and affordable GPUs (like an RTX 4090) are not available.
 
-![](https://github.com/dvgodoy/FineTuningLLMs/blob/master/images/appendixA/runpod3.png)
+![](https://github.com/dvgodoy/FineTuningLLMs/blob/main/images/appendixA/runpod3.png?raw=True)
 
 Once you've clicked on the GPU of your choice, it will automatically scroll down to select the pod template. Click on the "Change Template" button to the right and search for "jupyter":
 
-![](https://github.com/dvgodoy/FineTuningLLMs/blob/master/images/appendixA/runpod3_1.png)
+![](https://github.com/dvgodoy/FineTuningLLMs/blob/main/images/appendixA/runpod3_1.png?raw=True)
 
 Select "Jupyter PyTorch" and you'll go back to the previous screen. At this point, you get to choose how many GPUs you want and if you'd like to use an "On-Demand" or "Spot" instance. Spot instances are cheaper but may be terminated abruptly. Next, click the long purple "Deploy" button at the bottom:
 
-![](https://github.com/dvgodoy/FineTuningLLMs/blob/master/images/appendixA/runpod4.png)
+![](https://github.com/dvgodoy/FineTuningLLMs/blob/main/images/appendixA/runpod4.png?raw=True)
 
 Now, your pod is being deployed. It will download a Docker image and spin it up. The whole process may take a few minutes (if it's annoyingly slow, consider starting over and perhaps choosing a different country). If you click on the arrow to the right, you'll see what's happening:
 
-![](https://github.com/dvgodoy/FineTuningLLMs/blob/master/images/appendixA/runpod5.png)
+![](https://github.com/dvgodoy/FineTuningLLMs/blob/main/images/appendixA/runpod5.png?raw=True)
 
 Once it's finished deploying your pod, your dashboard should look like this:
 
-![](https://github.com/dvgodoy/FineTuningLLMs/blob/master/images/appendixA/runpod6.png)
+![](https://github.com/dvgodoy/FineTuningLLMs/blob/main/images/appendixA/runpod6.png?raw=True)
 
 There's plenty of information you can come back to at any point, like CPU and GPU utilization and memory usage. Click on the purple "Connect" button, and you'll be taken to the following screen:
 
-![](https://github.com/dvgodoy/FineTuningLLMs/blob/master/images/appendixA/runpod7.png)
+![](https://github.com/dvgodoy/FineTuningLLMs/blob/main/images/appendixA/runpod7.png?raw=True)
 
 Sometimes, one or more of the "Connect to..." buttons at the top may not be ready yet (they will show up in red). It may take a minute or two, but once they become purple, you can click on them. Click on the third one to connect to Jupyter's port (8888), and you'll see the login screen below:
 
-![](https://github.com/dvgodoy/FineTuningLLMs/blob/master/images/appendixA/runpod8.png)
+![](https://github.com/dvgodoy/FineTuningLLMs/blob/main/images/appendixA/runpod8.png?raw=True)
 
 The correct way to enter your login credentials is to use "_user_" as the username and "_password_" as the password. This will grant you access to a list of running services:
 
-![](https://github.com/dvgodoy/FineTuningLLMs/blob/master/images/appendixA/runpod9.png)
+![](https://github.com/dvgodoy/FineTuningLLMs/blob/main/images/appendixA/runpod9.png?raw=True)
 
 In the bottom-right corner, click on "Direct/Default" corresponding to the "Jupyter Notebook" service—and you'll have a GPU-powered Jupyter Notebook at your disposal!
 
-![](https://github.com/dvgodoy/FineTuningLLMs/blob/master/images/appendixA/runpod10.png)
+![](https://github.com/dvgodoy/FineTuningLLMs/blob/main/images/appendixA/runpod10.png?raw=True)
 
 You can choose to start a notebook from scratch or upload one of your own choice (for example, `Chapter0.ipynb`).
 
@@ -60,23 +60,23 @@ Now, would you like to use Flash Attention 2 in your notebook? If so, you can up
 
 Once you're done, **don't forget to stop and terminate your pods**. Go back to the list of your pods and click on the "Stop" button (the second button in the bottom-left corner):
 
-![](https://github.com/dvgodoy/FineTuningLLMs/blob/master/images/appendixA/runpod11.png)
+![](https://github.com/dvgodoy/FineTuningLLMs/blob/main/images/appendixA/runpod11.png?raw=True)
 
 At this point, you'll receive a message asking you to confirm and warning you that **you're not done yet—terminating your pod is still necessary**. Click on "Stop Pod".
 
-![](https://github.com/dvgodoy/FineTuningLLMs/blob/master/images/appendixA/runpod12.png)
+![](https://github.com/dvgodoy/FineTuningLLMs/blob/main/images/appendixA/runpod12.png?raw=True)
 
 The pod is stopped but has not yet been terminated, so it is still listed on your list of pods. Click on the arrow on the right to expand its information:
 
-![](https://github.com/dvgodoy/FineTuningLLMs/blob/master/images/appendixA/runpod13.png)
+![](https://github.com/dvgodoy/FineTuningLLMs/blob/main/images/appendixA/runpod13.png?raw=True)
 
 To **truly terminate your pod**, you need to click on the purple "Trash" button:
 
-![](https://github.com/dvgodoy/FineTuningLLMs/blob/master/images/appendixA/runpod14.png)
+![](https://github.com/dvgodoy/FineTuningLLMs/blob/main/images/appendixA/runpod14.png?raw=True)
 
 It will ask you for a final confirmation.
 
-![](https://github.com/dvgodoy/FineTuningLLMs/blob/master/images/appendixA/runpod15.png)
+![](https://github.com/dvgodoy/FineTuningLLMs/blob/main/images/appendixA/runpod15.png?raw=True)
 
 Click the "Yes" button to confirm that you want to terminate your pod. Your pod will be shut down at this point.
 
@@ -130,11 +130,11 @@ That's Ubuntu 22.04, great. We can now head to NVIDIA's [CUDA Toolkit](https://d
 * **Version**: `22.04`
 * **Install Type**: `deb(local)`
 
-![](https://github.com/dvgodoy/FineTuningLLMs/blob/master/images/appendixA/cuda1.png)
+![](https://github.com/dvgodoy/FineTuningLLMs/blob/main/images/appendixA/cuda1.png?raw=True)
 
 Once you've finished selecting the configuration, it will show you a list of installation instructions.
 
-![](https://github.com/dvgodoy/FineTuningLLMs/blob/master/images/appendixA/cuda2.png)
+![](https://github.com/dvgodoy/FineTuningLLMs/blob/main/images/appendixA/cuda2.png?raw=True)
 
 We're dividing these instructions into four groups:
 

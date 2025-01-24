@@ -2,8 +2,8 @@
 
 ## Setup
 
-- [FAQ](https://github.com/dvgodoy/FineTuningLLMs/blob/master/FAQ.md)
-- [Appendix A - Setting Up Your GPU Pod](https://github.com/dvgodoy/FineTuningLLMs/blob/master/AppendixA.md)
+- [FAQ](https://github.com/dvgodoy/FineTuningLLMs/blob/main/FAQ.md)
+- [Appendix A - Setting Up Your GPU Pod](https://github.com/dvgodoy/FineTuningLLMs/blob/main/AppendixA.md)
 
 ## Google Colab
 
@@ -11,14 +11,14 @@ You can easily **load the notebooks directly from GitHub** using Colab and run t
 
 You can go through the chapters already using the links below:
 
-- [Chapter 0 - TL;DR](https://colab.research.google.com/github/dvgodoy/FineTuningLLMs/blob/master/Chapter0.ipynb)
-- [Chapter 1 - Pay Attention to LLMs](https://colab.research.google.com/github/dvgodoy/FineTuningLLMs/blob/master/Chapter1.ipynb)
-- [Chapter 2 - Loading a Quantized Model](https://colab.research.google.com/github/dvgodoy/FineTuningLLMs/blob/master/Chapter2.ipynb)
-- [Chapter 3 - Low-Rank Adaptation (LoRA)](https://colab.research.google.com/github/dvgodoy/FineTuningLLMs/blob/master/Chapter3.ipynb)
-- [Chapter 4 - Formatting Your Dataset](https://colab.research.google.com/github/dvgodoy/FineTuningLLMs/blob/master/Chapter4.ipynb)
-- [Chapter 5 - Fine-Tuning with `SFTTrainer`](https://colab.research.google.com/github/dvgodoy/FineTuningLLMs/blob/master/Chapter5.ipynb)
-- [Chapter 6 - Deploying It Locally](https://colab.research.google.com/github/dvgodoy/FineTuningLLMs/blob/master/Chapter6.ipynb)
-- [Appendix B - Data Types' Internal Representation](https://colab.research.google.com/github/dvgodoy/FineTuningLLMs/blob/master/AppendixB.ipynb)
+- [Chapter 0 - TL;DR](https://colab.research.google.com/github/dvgodoy/FineTuningLLMs/blob/main/Chapter0.ipynb)
+- [Chapter 1 - Pay Attention to LLMs](https://colab.research.google.com/github/dvgodoy/FineTuningLLMs/blob/main/Chapter1.ipynb)
+- [Chapter 2 - Loading a Quantized Model](https://colab.research.google.com/github/dvgodoy/FineTuningLLMs/blob/main/Chapter2.ipynb)
+- [Chapter 3 - Low-Rank Adaptation (LoRA)](https://colab.research.google.com/github/dvgodoy/FineTuningLLMs/blob/main/Chapter3.ipynb)
+- [Chapter 4 - Formatting Your Dataset](https://colab.research.google.com/github/dvgodoy/FineTuningLLMs/blob/main/Chapter4.ipynb)
+- [Chapter 5 - Fine-Tuning with `SFTTrainer`](https://colab.research.google.com/github/dvgodoy/FineTuningLLMs/blob/main/Chapter5.ipynb)
+- [Chapter 6 - Deploying It Locally](https://colab.research.google.com/github/dvgodoy/FineTuningLLMs/blob/main/Chapter6.ipynb)
+- [Appendix B - Data Types' Internal Representation](https://colab.research.google.com/github/dvgodoy/FineTuningLLMs/blob/main/AppendixB.ipynb)
 
 
 ## Preface
