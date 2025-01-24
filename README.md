@@ -1,4 +1,4 @@
-# FineTuningLLMs
+# A Hands-On Guide to Fine-Tuning LLMs with PyTorch and Hugging Face
 
 ## Setup
 
