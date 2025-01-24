@@ -1,5 +1,9 @@
 # A Hands-On Guide to Fine-Tuning LLMs with PyTorch and Hugging Face
 
+<center><img src="https://github.com/dvgodoy/FineTuningLLMs/blob/main/images/cover.png?raw=True"/></center>
+
+<center>Kindle | Paperback | PDF</center>
+
 ## Setup
 
 - [FAQ](https://github.com/dvgodoy/FineTuningLLMs/blob/main/FAQ.md)
