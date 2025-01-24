@@ -1,15 +1,5 @@
 # FineTuningLLMs
 
-**Get the book!**
-
-**Early Bird / Launch Discount**
-
-[PDF](https://leanpub.com/finetuning) ~~$19.95~~ **$9.95** 
-
-[Kindle](https://www.amazon.com/dp/B0DPDRWN78) ~~$9.95~~ **$2.99** 
-
-[Paperback](https://www.amazon.com/dp/B0DPDRWN78) ~~$39.95~~ **$27.95**
-
 ## Setup
 
 - [FAQ](https://github.com/dvgodoy/FineTuningLLMs/blob/master/FAQ.md)
