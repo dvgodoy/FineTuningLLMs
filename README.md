@@ -2,7 +2,7 @@
 
 <center><img src="https://github.com/dvgodoy/FineTuningLLMs/blob/main/images/cover.png?raw=True" width="400"/></center>
 
-<h3><center>Kindle | Paperback | PDF</center></h3>
+<strong><center>Kindle | Paperback | PDF</center></strong>
 
 ## Setup
 
