@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://github.com/dvgodoy/FineTuningLLMs/blob/main/images/cover.png?raw=True" width="400"/>
   <br>
-  <strong>Kindle | Paperback | PDF</strong>
+  <strong><a href="https://www.amazon.com/dp/B0DV3Y1GMP">Kindle</a> | <a href="https://www.amazon.com/dp/B0DV4H7YW2">Paperback</a> | <a href="https://leanpub.com/finetuning">PDF [Leanpub]<a> | <a href="https://danielgodoy.gumroad.com/l/finetuning">PDF [Gumroad]<a></strong>
 </p>
 
 ## Setup
