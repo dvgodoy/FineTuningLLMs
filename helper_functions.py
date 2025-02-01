@@ -7,6 +7,7 @@ def rounding_evolution(lr=3e-3, n_updates=1000, seed=42, decimals=6):
     def round_up(v, decimals):
         return torch.ceil(v*10**decimals)/(10**decimals)
 
+    torch.set_default_dtype(torch.float16)
     torch.manual_seed(seed)
     initial = torch.randn(1)
     updates = torch.randn(n_updates)
